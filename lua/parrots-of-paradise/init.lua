@@ -1,3 +1,4 @@
+-- NOTE: top bar has to be highlight color, and the active one highlight2 when telescope highlights implemented
 local has_mini_base16, base16 = pcall(require, "mini.base16")
 if not has_mini_base16 then
   error("parrots-of-paradise requires echasnovski/mini.base16!")
